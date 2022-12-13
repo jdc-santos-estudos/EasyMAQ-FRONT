@@ -1,0 +1,10 @@
+@import '../../styles/vars.scss';
+
+.FormContainer {
+  border: 1px solid $easyMAQ_BLUE;
+  // width:fit-content;
+  padding: 50px;
+  text-align: left;
+  border-radius: 8px;
+  position: relative;
+}

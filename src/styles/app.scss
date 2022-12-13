@@ -1,0 +1,92 @@
+@import './vars';
+
+@import '../../node_modules/react-toastify/dist/ReactToastify.min.css';
+// import 'react-toastify/dist/ReactToastify.css';
+* {
+  margin: 0;
+  padding: 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none !important;
+}
+
+.cabecalho {
+  background-color: #00f;
+}
+
+.icon{
+  color: $easyMAQ_ORANGE;
+}
+
+.icon:hover {
+  color: $easyMAQ_ORANGE_DARK;
+}
+
+hr {
+  color: $easyMAQ_BLUE;
+}
+
+.btnLogout {
+  cursor: pointer;
+  color: $easyMAQ_BLUE;
+}
+
+.btnLogout:hover {
+  cursor: pointer;
+  color: $easyMAQ_ORANGE;
+}
+
+.__main {
+  min-height: 100vh; 
+  // border: 1px solid red;
+}
+.___conteudo {
+  min-height: calc(100vh - 169px);
+  // min-height: 100vh;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.formFieldTitle {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.height-80vh {
+  max-height: 75vh;
+}
+
+.scroll-y {
+  overflow-y: scroll;
+}
+
+.btnNewItem {
+  color: $easyMAQ_BLUE;
+}
+
+.btnNewItem:hover {
+  color: $easyMAQ_ORANGE;
+}
+
+.fornecedorName {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 0px;
+  padding: 0px;
+  text-transform: uppercase;
+}
+
+.btn-reset {
+  background-color: #fff;
+  color: $easyMAQ_BLUE;
+}
+
+.btn-reset:hover {
+  color: white;
+}

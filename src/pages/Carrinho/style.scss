@@ -1,0 +1,64 @@
+@import '../../styles/vars.scss';
+
+.carrinhoContainer {
+  padding-top: 50px !important;
+
+  .btnRemoveDoCarrinho {
+    margin-top: 40px;
+    font-size: 23px;
+    float: right;
+    color: #dd3333;
+    cursor: pointer;
+    transition: .3s;
+  }
+
+  .btnAdicionarAoCarrinho:hover,
+  .btnRemoveDoCarrinho:hover {
+    color: $easyMAQ_BLUE;
+  }
+
+  .listaMaquinas {
+    list-style-type: none;
+    padding-left: 0px;
+  }
+
+  .listaMaquinas li {
+    margin-top: 5px;
+    border-top: 1px solid $easyMAQ_BLUE;
+    padding: 0px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+  }
+
+  .imgContainer {
+    max-width: 150px !important;
+    display: inline-flex;
+  }
+
+  .infoMaquina {
+    padding-top: 5px;
+    padding-left: 25px !important;
+  }
+
+  .imgContainer ._cardImage {
+    width: 150px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .fornecedorContainer {
+    margin-top: 50px;
+    
+  }
+
+  .fornecedorContainer > ul {
+    border-left: 2px solid $easyMAQ_ORANGE;
+  }
+
+  .formCarrinho {
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
+}

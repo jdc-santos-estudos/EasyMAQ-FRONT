@@ -1,0 +1,42 @@
+@import '../../styles/vars.scss';
+
+.EMbutton {
+  background-color: $easyMAQ_ORANGE;
+  // border: 2px solid $easyMAQ_YELLOW;
+  border: 2px solid $easyMAQ_BLUE;
+  color: white;
+  padding: 5px 50px;
+  border-radius: 8px !important;
+  transition: .3s;
+}
+
+.EMbutton:hover {
+  transition: .5s;
+  background-color: $easyMAQ_BLUE;
+}
+
+.EMbuttonDisabled {
+  background-color: $easyMAQ_ORANGE;
+  // border: 2px solid $easyMAQ_YELLOW;
+  border: 2px solid $easyMAQ_BLUE;
+  color: white;
+  padding: 5px 50px;
+  border-radius: 8px !important;
+  transition: .3s;
+  opacity: .7;
+}
+
+.EMbuttonDanger {
+  background-color: $easyMAQ_ORANGE;
+  // border: 2px solid $easyMAQ_YELLOW;
+  border: 2px solid $easyMAQ_BLUE;
+  color: white;
+  padding: 5px 50px;
+  border-radius: 8px !important;
+  transition: .3s;
+}
+
+.EMbuttonDanger:hover {
+  transition: .5s;
+  background-color: $easyMAQ_RED;
+}

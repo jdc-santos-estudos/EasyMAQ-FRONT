@@ -1,0 +1,99 @@
+@import '../../styles/vars.scss';
+
+.homeContainer {
+  padding: 50px;
+  background: #fafafa;
+}
+
+.formFiltroContainer {
+  // margin-left: 4% !important;
+  border-right: 2px solid $easyMAQ_ORANGE;
+  padding-right: 30px !important;
+  // box-shadow: 0px 3px 4px #333;
+  // background: #fff;
+}
+
+.maquinasContainer {
+  // background: #fff !important;
+  padding-left: 30px !important;
+  justify-content: center !important;
+  align-items: center !important;
+  justify-items: center !important;
+}
+
+.iconeMostrarFiltrosMobile {
+  margin-top: -18px !important;
+  right: -12px !important;
+  float: right;
+  font-size: 42px;
+  color: $easyMAQ_BLUE;
+  // border: 1px solid red;;
+}
+._iconeMostrarFiltrosMobile {
+  margin-right: -9px !important;
+  cursor: pointer;
+  // border: 1px solid red;
+}
+
+// para telas muito grandes
+@media screen and (min-width: 1600px) {
+  .formFiltroContainer { width: 320px !important; }
+  // .maquinasContainer { width: calc(95% - 320px) !important; }
+}
+
+@media screen and (max-width: 1223px) {
+  .formFiltroContainer {
+    width: 380px !important;
+  }
+}
+
+@media screen and (max-width: 864px) {
+  .formFiltroContainer {
+    padding: auto !important;
+    border: none;
+    margin-right: 15px !important;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    background-color: white;
+    padding-right: 38px !important;
+    padding-left: 38px !important;
+    padding-top: 20px;
+    width: 100% !important;
+    box-shadow: 3px 3px 7px #888;
+  }
+
+  .btnFiltrar {
+    margin-top: 10px;
+  }
+
+  .maquinasContainer { 
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  .ContainerMaquina {
+    margin: auto !important;
+    margin-bottom: 20px !important;
+  }
+  .homeContainer  {
+    padding-top: 0px;
+  }
+}
+
+@media screen and (min-width: 864px) {
+  .iconeMostrarFiltrosMobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 864px) {
+  .maquinasContainer {
+    width: 100% !important
+  }
+}
+
+@media screen and (max-width: 829px) {
+  .homeContainer {
+    padding-top: 38px;
+  }
+}

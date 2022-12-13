@@ -1,0 +1,33 @@
+@import '../../styles/vars.scss';
+
+.formCadastroContainer {
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+#termos_uso {
+  float: left;
+  margin-right: 15px;
+}
+
+.Termos {
+  font-weight: bold;
+  color: $easyMAQ_BLUE;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1400px) {
+  .formCadastroContainer {
+    width: 90% !important;
+    margin-left: 5% !important; 
+    max-width: 90%  !important;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .formCadastroContainer {
+    width: 100% !important;
+    margin-left: 0% !important;
+    max-width: 100%  !important;
+  }
+}

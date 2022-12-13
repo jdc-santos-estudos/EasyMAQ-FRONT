@@ -1,0 +1,74 @@
+@import '../../styles/vars.scss';
+
+.footer {
+  background: linear-gradient(0deg, $easyMAQ_BLUE_DARK, $easyMAQ_BLUE );
+  min-height: 100px;
+  position: absolute;
+  padding: 50px;
+  
+  a { color: white; }
+  
+  .socialIconsContainer {
+    text-align: right;
+    color: white;
+  }
+
+  // .iconsContainer {
+  //   position: absolute;
+  //   bottom: 10px;
+  //   padding-bottom: 15px;
+  //   right: 0;
+  // }
+
+  // .iconsContainer {
+  //   padding-top: 30px;
+  //   padding-bottom: 30px;
+  // }
+
+  .iconsContainer .socialIcon { 
+    font-size: 30px;
+    margin-left: 7px;
+    margin-right: 7px;
+    transition: .3s;
+  }
+
+  .iconsContainer .socialIcon:hover {
+    color: $easyMAQ_ORANGE;
+  }
+
+  // .socialIconsContainer .socialIcon { 
+  //   font-size: 30px !important;
+  //   margin-right: 15px;
+  // }
+
+  .footerDivisor {
+    height: 60px;
+    width: 1px;
+    border-right: 1px solid $easyMAQ_ORANGE;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .copyright {
+    margin-top: 30px;
+    color: #ccc;
+    font-size: 15px;
+  }
+
+  .infoContainer {
+    padding-top: 20px;
+    color: white;
+    font-size: 14px;
+    
+  }
+
+  .divisor {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .infoContainer a { transition: .3s; }
+
+  .infoContainer a:hover  {
+    color: $easyMAQ_ORANGE
+  }
+}

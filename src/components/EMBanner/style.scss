@@ -1,0 +1,33 @@
+.carouselItem {
+  height: 350px;
+  background-position: center;
+  background-size: 100%;
+}
+
+.carouselCaption {
+  position: absolute;
+  width: 100%;
+  left: 0 !important;
+  // bottom:0 !important;
+  right: 0 !important;
+  background-color: #222;
+  opacity: 0.8;
+  // padding-bottom: 0 !important;
+}
+
+@media screen and (max-width: 1138px) {
+  .carouselItem {
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 903px) {
+  .carouselItem {
+    height: 260px;
+  }
+}
+
+@media screen and (max-width: 829px) {
+  .EMcarrousel { display: none; }
+  .carouselItem { display: none; }
+}

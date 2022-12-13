@@ -1,0 +1,23 @@
+@import '../../styles/vars.scss';
+
+.btnUpload {
+  background-color: white;
+  transition: .3s;
+  border: 2px solid $easyMAQ_BLUE;
+  color: $easyMAQ_BLUE;
+
+  .icon {
+    margin-left: 15px;
+    color: $easyMAQ_BLUE;
+  }
+}
+
+.btnUpload:hover {
+  background: $easyMAQ_BLUE !important;
+  border: 2px solid $easyMAQ_BLUE !important;
+
+  .icon {
+    margin-left: 15px;
+    color: white;
+  }
+}

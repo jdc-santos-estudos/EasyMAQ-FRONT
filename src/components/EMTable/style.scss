@@ -1,0 +1,23 @@
+.spanHeaderActions {
+  margin-left: 15px;
+}
+
+.actionButton {
+  margin-left: 10px !important;
+}
+
+.colActions {
+  min-width: 130px;
+}
+
+.EMTableContainer {
+  overflow-x: auto;
+  min-width: 800px;
+}
+
+@media screen and (max-width: 890px) {
+  .EMTableContainer {
+    overflow-x: auto;
+    min-width: 100%;
+  }
+}

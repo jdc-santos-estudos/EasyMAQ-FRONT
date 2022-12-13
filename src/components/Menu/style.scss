@@ -1,0 +1,211 @@
+@import '../../styles/vars.scss';
+
+.menu {
+  background-color: $easyMAQ_BLUE;
+  padding-bottom: 10px;
+
+  .logo {
+    width: 80px;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+
+  .searchContainer{
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  .btnSearch {
+    font-size: 18px;
+    color: white;
+    background-color: $easyMAQ_ORANGE;
+    border: none;
+  }
+
+  .btnSearch:hover {
+    background: $easyMAQ_ORANGE_DARK;
+  }
+
+  .buttonsContainer {
+    padding-top: 15px;
+    text-align: right;
+    padding-right: 50px;
+  }
+
+  .cartContainer {
+    width: min-content;
+    float: right;
+    margin-left: 30px;
+  }
+
+  .cartCircle {
+    border: 2px solid $easyMAQ_ORANGE;
+    padding: 9px 6px 3px 6px;
+    border-radius: 100%;
+  }
+
+  .iconCart {
+    font-size: 23px;
+    margin: 0px;
+  }
+
+  .nrItensCart {
+    font-size: 11px;
+    font-weight: bold;
+    background: $easyMAQ_ORANGE;
+    border-radius: 100%;
+    padding: 0px 5px;
+    color: $easyMAQ_BLUE;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -1px;
+  }
+  
+  .nrItensCart2Digitos {
+    padding: 2px 5px;
+  }
+
+  .menuButton {
+    font-style: none;
+    text-decoration:none;
+    color: white;
+    transition: .3s;
+    margin: 10px;
+    cursor: pointer;
+  }
+
+  .menuButton:hover {
+    color: $easyMAQ_ORANGE;
+    transition: .3s;
+  }
+
+  .menuDivisor {
+    color: $easyMAQ_ORANGE;
+    line-height: 40px;
+  }
+
+  .userIconContainer {
+    border: 2px solid $easyMAQ_ORANGE;
+    padding: 9px 9px 3px 9px;
+    border-radius: 100%;
+    width: min-content;
+    float: right;
+    margin-left: 30px;
+    cursor: pointer;
+
+  }
+  .userIconContainer:hover,
+  .userIconContainer:hover > .icon,
+  .cartCircle:hover,
+  .cartCircle:hover > .icon {
+    border-color: $easyMAQ_ORANGE_DARK;
+    color: $easyMAQ_ORANGE_DARK;
+  }
+}
+
+.userOptionsContainer {
+  margin-top: 10px;
+  background-color: white;
+  position: absolute;
+  border-left: 1px solid $easyMAQ_BLUE;
+  border-bottom: 1px solid $easyMAQ_BLUE;
+  right: 0;
+  padding: 10px 40px;
+  box-shadow: 5px 6px 10px #333;
+  z-index: 999;
+
+  ul {
+    list-style: none;
+    padding: 0px;
+  }
+
+  ul > li {
+    margin-top: 10px;
+  }
+
+  li > a {
+    color: $easyMAQ_BLUE !important
+  }
+
+  li > a:hover {
+    color: $easyMAQ_ORANGE !important
+  }
+
+  .userOptionsLineDivisor {
+    border: 1px solid $easyMAQ_BLUE;
+  }
+}
+
+.userOptionsContainerMobile {
+  position: fixed;
+  width: 100%;
+  font-size: 23px;
+  min-height: 100%;
+  background-color: #fff;
+}
+
+.userOptionsContainerMobile ul li {
+  border-bottom: 1px solid $easyMAQ_BLUE;
+  padding-top: 15px;
+  height: 50px;
+
+}
+
+.mobileMenuLink {
+  color: $easyMAQ_BLUE;
+  transition: .3s;
+}
+
+.mobileMenuLink:hover {
+  color: $easyMAQ_ORANGE;
+}
+
+.btnLogar {
+  margin-top: 10px;
+}
+
+.btnRecuperarSenha {
+  margin-top: 20px;
+}
+
+.mobOn {
+  margin-left: 3px !important;
+  margin-right: 3px !important;
+}
+.menuMobileMargin {
+  width: 100%;
+  height: 0px;
+}
+
+@media screen and (max-width: 1005px) {
+  .menu .buttonsContainer {
+    padding-right: 30px;
+  }
+
+  .menu .cartContainer  {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 891px) {
+  .itemPC {
+    display: none;
+  }
+  .menu .searchContainerPC {
+    display: none;
+  }
+  .menu {
+    width: 100%;
+    position: fixed;
+    z-index: 9;
+  }
+  .menuMobileMargin {
+    height: 30px;
+  }
+}
+
+@media screen and (min-width: 891px) {
+  .itemMOBILE {
+    display: none;
+  }
+}

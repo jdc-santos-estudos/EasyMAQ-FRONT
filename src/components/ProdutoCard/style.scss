@@ -1,0 +1,62 @@
+@import '../../styles/vars.scss';
+
+.__ProdutoCard {
+  .cardContainer {
+    min-width: 240px;
+    padding: 10px;
+    flex: auto;
+    max-width: 300px;
+    width: 319px;
+  }
+
+  ._card {
+    box-shadow: 0px 2px 12px #888;
+    border-radius: 4px;
+  }
+
+  .imgContaienr ._cardImage {
+    width: 100% ;
+    height: 160px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  ._cardInfo {
+    padding: 15px;
+  }
+
+  .btnAdicionarAoCarrinho {
+    font-size: 23px;
+    float: right;
+    color: $easyMAQ_ORANGE;
+    cursor: pointer;
+    transition: .3s;
+  }
+
+  .btnRemoveDoCarrinho {
+    font-size: 23px;
+    float: right;
+    color: #dd3333;
+    cursor: pointer;
+    transition: .3s;
+  }
+
+  .btnAdicionarAoCarrinho:hover,
+  .btnRemoveDoCarrinho:hover {
+    color: $easyMAQ_BLUE;
+  }
+
+  @media screen and (max-width: 864px) {
+    .cardContainer {
+      max-width: 33.33% !important;
+      width: 33.33% !important;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .cardContainer {
+      min-width: 100%;
+    }
+  }
+}
